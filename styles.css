@@ -1,10 +1,10 @@
 
 body {
   background-color: #F2F2F2;
+  padding-left: 10em;
 }
 
 .logo {
-  margin-left: 20em;
   margin: 10em;
   height: 5em;
   width: 5em;
@@ -13,4 +13,24 @@ body {
 .logo img {
   height: 5em;
   width: 5em;
+}
+
+.heading {
+  font-family: 'Lato', sans-serif;
+  color: #0070C0;
+}
+
+navy {
+ color: #0C3B62;
+}
+
+
+
+::selection {
+  background: #0C3B62; /* WebKit/Blink Browsers */
+  color: #FFFFFF;
+}
+::-moz-selection {
+  background: #0C3B62; /* Gecko Browsers */
+  color: #FFFFFF;
 }
