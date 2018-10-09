@@ -1,24 +1,126 @@
 
-body {
-  background-color: #F2F2F2;
-  padding-left: 10em;
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+
+  body {
+    background-color: #FFFFFF;
+    padding-left: 10em;
+  }
+
+  .logo {
+    margin: 10em;
+    margin-left: 0em;
+    height: 5em;
+    width: 5em;
+  }
+
+  .logo img {
+    height: 5em;
+    width: 5em;
+  }
+
+  .heading {
+    font-family: 'Hind', sans-serif;
+    color: #0070C0;
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    line-height: 1.2em;
+    margin-bottom: 7em;
+  }
+
+
+  .project{
+    margin: 10em;
+    margin-left: 0em;
+  }
+
+
+
+  .project h1 {
+    font-family: 'Hind', sans-serif;
+    color: #0C3B62;
+    font-size: 2em;
+  }
+
+  .project h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #7B7B7B;
+    font-size: 0.9em;
+  }
+
+
+
+  .about{
+    margin: 10em;
+    margin-left: 0em;
+    margin-top: 30em;
+  }
+
+  .about h1 {
+    font-family: 'Hind', sans-serif;
+    color: #0070C0;
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    line-height: 1.2em;
+    text-align: right;
+  }
+
+  .about img{
+    height: 30em;
+    width: 26em;
+  }
+
+  .about text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-align: right;
+    width: 25em;
+    margin-left: 5em;
+    margin-top: 5em;
+
+  }
+
+
+    .about break{
+      height: 90em;
+    }
+
+
 }
 
-.logo {
-  margin: 10em;
-  height: 5em;
-  width: 5em;
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-color: #F2F2F2;
+    padding-left: 5em;
+  }
+
+  .logo {
+    margin: 5em;
+    margin-left: 0em;
+    height: 5em;
+    width: 5em;
+  }
+
+  .logo img {
+    height: 3em;
+    width: 3em;
+  }
+  .heading {
+    font-family: 'Hind', sans-serif;
+    color: #0070C0;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    line-height: 1.2em;
+  }
 }
 
-.logo img {
-  height: 5em;
-  width: 5em;
-}
-
-.heading {
-  font-family: 'Lato', sans-serif;
-  color: #0070C0;
-}
 
 navy {
  color: #0C3B62;
