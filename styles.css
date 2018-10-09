@@ -10,16 +10,26 @@
   }
 }
 
+a {
+    color: #0070C0;
+    font-weight: bold;
+    text-decoration: none;
+}
 
-/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+a:hover{
+    color: #0070c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
 @media only screen and (min-width: 601px) {
 
 
 
 
   body {
-    background-color: #FFFFFF;
-
+    background-color: #F6F6F6;
   }
 
   .logo {
@@ -62,6 +72,7 @@
     font-family: 'Nunito', sans-serif;
     color: #7B7B7B;
     font-size: 0.9em;
+    font-weight: normal;
   }
 
 
@@ -82,17 +93,18 @@
 
   .about img{
     height: 30em;
-    width: 26em;
+    width: 26em;x
   }
 
   .about text {
     font-family: 'Nunito', sans-serif;
+    color: #7B7B7B;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: right;
     width: 25em;
-    margin-left: 5em;
-    margin-top: 5em;
+    margin-left: 2em;
+    float: right;
 
   }
 
