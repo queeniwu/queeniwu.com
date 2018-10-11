@@ -13,13 +13,13 @@
 a {
     color: #0070C0;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: overline;
 }
 
 a:hover{
-    color: #0070c0;
+    color: #0C3B62;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 navy {
