@@ -71,6 +71,7 @@ navy {
 
   .project{
     margin: 7.5em;
+    margin-top: 12em;
   }
 
 
@@ -78,13 +79,13 @@ navy {
   .project h1 {
     font-family: 'Hind', sans-serif;
     color: #0C3B62;
-    font-size: 2em;
+    font-size: 5em;
   }
 
   .project h2 {
     font-family: 'Nunito', sans-serif;
     color: #7B7B7B;
-    font-size: 0.5em;
+    font-size: 1em;
     font-weight: normal;
   }
 
@@ -93,7 +94,7 @@ navy {
   .about{
     margin: 5em;
     margin-top: 30em;
-        padding-bottom: 15em;
+        padding-bottom: 5em;
   }
 
   .about h1 {
@@ -118,7 +119,7 @@ navy {
     font-family: 'Nunito', sans-serif;
     color: #7B7B7B;
     font-weight: 400;
-    font-size: 0.85em;
+    font-size: 1em;
     text-align: left;
     width: 25em;
     padding: 2.5em;
@@ -137,6 +138,8 @@ footer {
       font-family: 'Nunito', sans-serif;
       font-size: 0.75em;
       margin: 0em;
-      padding: 2.5em;
+      padding: 10em;
+      padding-right: 2.5em;
+      padding-left: 2.5em;
       text-align: right;
     }
