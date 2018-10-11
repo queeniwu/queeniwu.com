@@ -37,8 +37,6 @@ navy {
   color: #FFFFFF;
 }
 
-/* web*/
-@media only screen and (min-width: 601px) {
 
   body {
     background-color: #F6F6F6;
@@ -106,7 +104,7 @@ navy {
 
   .about img{
     height: 30em;
-    width: 26em;x
+    width: 30em;
   }
 
   .about text {
@@ -135,105 +133,3 @@ footer {
       padding: 5em;
       text-align: right;
     }
-
-
-}
-
-/* notweb*/
-@media only screen and (max-width: 600px) {
-
-  body {
-    background-color: #F6F6F6;
-    margin: 0;
-  }
-
-  .logo {
-    margin: 10em;
-    height: 5em;
-    width: 5em;
-  }
-
-  .logo img {
-    height: 5em;
-    width: 5em;
-  }
-
-  .heading {
-          animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
-    font-family: 'Hind', sans-serif;
-    color: #0070C0;
-    font-size: 4em;
-    font-weight: 700;
-    line-height: 1.1em;
-    margin-bottom: 7em;
-    margin-left: 2.5em;
-
-  }
-
-
-  .project{
-    margin: 10em;
-  }
-
-
-
-  .project h1 {
-    font-family: 'Hind', sans-serif;
-    color: #0C3B62;
-    font-size: 2em;
-  }
-
-  .project h2 {
-    font-family: 'Nunito', sans-serif;
-    color: #7B7B7B;
-    font-size: 0.9em;
-    font-weight: normal;
-  }
-
-
-
-  .about{
-    margin: 10em;
-    margin-top: 30em;
-  }
-
-  .about h1 {
-    font-family: 'Hind', sans-serif;
-    color: #0070C0;
-    font-size: 4em;
-    font-weight: 700;
-    line-height: 1.2em;
-    text-align: right;
-  }
-
-  .about img{
-    height: 30em;
-    width: 26em;x
-  }
-
-  .about text {
-    font-family: 'Nunito', sans-serif;
-    color: #7B7B7B;
-    font-weight: 400;
-    font-size: 1.6em;
-    text-align: right;
-    width: 25em;
-    padding: 2em;
-
-  }
-
-
-    .about break{
-      height: 90em;
-    }
-
-footer {
-      background-color: #0070C0;
-      color: #FFFFFF;
-      font-family: 'Nunito', sans-serif;
-      font-size: 0.75em;
-      margin: 0em;
-      padding: 2.5em;
-      text-align: right;
-    }
-}
