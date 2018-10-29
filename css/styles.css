@@ -10,17 +10,6 @@
   }
 }
 
-a {
-    color: #0070C0;
-    font-weight: bold;
-    text-decoration: overline;
-}
-
-a:hover{
-    color: #0C3B62;
-    text-decoration: none;
-    font-weight: bolder;
-}
 
 navy {
  color: #0C3B62;
@@ -55,15 +44,41 @@ navy {
   }
 
   .heading {
-          animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
+    animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
     font-family: 'Hind', sans-serif;
     color: #0070C0;
     font-size: 4em;
     font-weight: 700;
     line-height: 1.1em;
-    margin-bottom: 7em;
+    margin-bottom: 4em;
     margin-left: 2.5em;
 
+  }
+
+
+  .heading img {
+    position: absolute;
+    z-index: -1;
+    margin-top: -40px;
+  }
+
+  .heading h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #7B7B7B;
+    font-weight: 400;
+    font-size: 0.3em;
+    text-align: left;
+  }
+
+  .heading a {
+    color: #0C3B62;
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+  }
+
+  .heading a:hover{
+      color: #0070C0;
   }
 
 
@@ -71,7 +86,9 @@ navy {
     margin: 10em;
   }
 
-
+  .project a {
+    text-decoration: none;
+  }
 
   .project h1 {
     font-family: 'Hind', sans-serif;
@@ -82,17 +99,27 @@ navy {
   .project h2 {
     font-family: 'Nunito', sans-serif;
     color: #7B7B7B;
-    font-size: 0.9em;
+    font-size: 1.25em;
     font-weight: normal;
+  }
+
+  .project h3 {
+    font-family: 'Hind', sans-serif;
+    color: #0070C0;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1.2em;
   }
 
 
 
   .about{
+    animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
     margin: 10em;
-    margin-top: 30em;
+    margin-top: 25em;
     margin-bottom: 15em;
   }
+
 
   .about h1 {
     font-family: 'Hind', sans-serif;
@@ -100,38 +127,45 @@ navy {
     font-size: 4em;
     font-weight: 700;
     line-height: 1.2em;
-    text-align: right;
   }
 
-  .about img{
-    height: 25vw;
-    width: 25vw;
-  }
 
-  .about text {
+  .about .text {
     font-family: 'Nunito', sans-serif;
     color: #7B7B7B;
     font-weight: 400;
-    font-size: 1em;
-    text-align: right;
-    width: 40vw;
-    margin-left: 1em;
-    float: right;
-    margin-top: -5em;
-
+    font-size: 1.5em;
+    text-align: left;
   }
 
+  .about a {
+    color: #0C3B62;
+    font-weight: inherit;
+    text-decoration: none;
+    /*background-image: linear-gradient(#0070C0 0, #0070C0 100%);
+    background-repeat: repeat-x;
+    background-size: 0.1em 0.1em;*/
+  }
 
-    .about break{
-      height: 90em;
-    }
+  .about a:hover{
+      color: #0070C0;
+  }
+
 
 footer {
       background-color: #0070C0;
       color: #FFFFFF;
       font-family: 'Nunito', sans-serif;
-      font-size: 0.8em;
+      font-size: 1em;
       margin: 0em;
-      padding: 5em;
+      padding: 8em;
       text-align: right;
+    }
+
+footer h1 {
+      font-family: 'Hind', sans-serif;
+      color: #FFFFFF;
+      font-size: 3.5em;
+      font-weight: 700;
+      line-height: 1.2em;
     }
