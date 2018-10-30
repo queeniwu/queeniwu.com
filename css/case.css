@@ -27,7 +27,7 @@ body {
 
 .progress-container {
   width: 100%;
-  height: 8px;
+  height: 15px;
   background: #FFFFFF;
   position: fixed;
   top: 0;
@@ -35,16 +35,19 @@ body {
 }
 
 .progress-barr {
-  height: 8px;
-  background-color: #FFE317;
+  height: 15px;
+  background-color: #0C3B62;
   width: 5%;
   z-index: 999;
 }
 
 .logo {
   margin-left: 10em;
-  margin-top: -16.2em;
-  margin-bottom: 16.2em;
+  position: absolute;
+  top: 10em;
+  left: 0em;
+  z-index: 8;
+  display: block;
 }
 
 .logo img {
@@ -58,15 +61,17 @@ body {
 .header {
   top: 0;
   width 100%;
+  background: white;
+
 }
 
 .header img {
   overflow: hidden;
-  height: 20em;
+  height: 25em;
   width: 100%;
   object-fit: cover;
-  z-index: -1;
-  opacity: 0.3;
+  opacity: 0.4;
+  z-index: -4;
 }
 
 .header h1 {
@@ -81,7 +86,8 @@ body {
   margin-top: -3em;
   margin-left: 8em;
   font-family: 'Nunito', sans-serif;
-  color: #0C3B62;
+  color: #6A6A6A;
+  font-weight: lighter;
   font-size: 1.25em;
 }
 
@@ -89,13 +95,13 @@ body {
 .case {
   display: grid;
   grid-gap: 60px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(15em, 1fr));
   animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
   margin: 10em;
   margin-top: 6em;
   padding-right: 5em;
   font-family: 'Nunito', sans-serif;\
-  color: #7B7B7B;
+  color: #6A6A6A;
 }
 
 .case h2 {
@@ -103,7 +109,7 @@ body {
 }
 
 .case img {
-  width: 50em;
+  width: 100%;
   text-align: center;
 }
 
@@ -119,9 +125,9 @@ body {
 }
 
 .case .summary {
-  background-color: #0070C0;
+  background-color: #0C3B62;
   color: #FFFFFF;
-  padding: 4em;
+  padding: 2.25em;
 
 }
 
@@ -140,11 +146,12 @@ body {
       grid-row: 1/3;
       grid-column: 2/4;
       z-index: 3;
+      overflow: hidden;
     }
 
 
 footer {
-      background-color: #0070C0;
+      background-color: #0C3B62;
       color: #FFFFFF;
       font-family: 'Nunito', sans-serif;
       font-size: 0.8em;
