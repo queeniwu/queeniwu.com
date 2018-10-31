@@ -100,6 +100,8 @@ navy {
     grid-template-columns: repeat(auto, minmax(5em, 1fr));
     grid-gap: 1em;
     margin: 10em;
+    margin-top: 7em;
+    margin-bottom: 7em;
   }
 
   .project>div:nth-child(1) {
@@ -157,7 +159,7 @@ navy {
     font-size: 3.5em;
     font-weight: 700;
     line-height: 1.2em;
-    margin-bottom: -4em;
+    margin-bottom: -1.8em;
   }
 
 
@@ -175,7 +177,7 @@ navy {
     color: #C0C0C0;
     font-size: 3.5em;
     font-weight: 700;
-    line-height: 1.2em;
+    line-height: 0.5em;
   }
 
 
@@ -200,7 +202,10 @@ footer {
       font-family: 'Nunito', sans-serif;
       font-size: 1em;
       padding: 10em;
+      padding-top: 3em;
+      padding-bottom: 3em;
       text-align: right;
+      margin-top: 12em;
     }
 
 footer h1 {
