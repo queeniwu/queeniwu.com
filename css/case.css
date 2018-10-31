@@ -161,20 +161,20 @@ footer {
       margin: 0em;
       padding: 10em;
       text-align: right;
-      padding-left: 50em;
+      padding-left: 40em;
     }
 
-footer h1 a{
+footer h1 {
       font-family: 'Hind', sans-serif;
       color: #FFFFFF;
-      font-size: 2em;
+      font-size: 4em;
       font-weight: 700;
       line-height: 1.2em;
       text-decoration: none;
     }
 
-footer h2 a {
+footer h2 {
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #FFFFFF;
 }
