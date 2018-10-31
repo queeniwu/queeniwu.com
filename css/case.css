@@ -9,6 +9,11 @@
   }
 }
 
+td {
+  padding-right: 2.5em;
+}
+
+
 ::selection {
   background: #0C3B62; /* WebKit/Blink Browsers */
   color: #FFFFFF;
