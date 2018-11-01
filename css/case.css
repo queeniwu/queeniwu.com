@@ -161,8 +161,14 @@ footer {
       margin: 0em;
       padding: 10em;
       text-align: right;
+      padding-top: 3em;
+      padding-bottom: 3em;
       padding-left: 40em;
     }
+
+footer a{
+  text-decoration: none;
+}
 
 footer h1 {
       font-family: 'Hind', sans-serif;
