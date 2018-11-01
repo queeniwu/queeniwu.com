@@ -217,13 +217,18 @@ footer {
       background-color: #0C3B62;
       color: #FFFFFF;
       font-family: 'Nunito', sans-serif;
-      font-size: 1em;
-      padding: 10em;
+      font-size: 1.25em;
+      padding: 5em;
       padding-top: 3em;
       padding-bottom: 3em;
       text-align: right;
       margin-top: 12em;
     }
+
+footer img{
+  height: 3em;
+  margin-left: 2em;
+}
 
 footer h1 {
       font-family: 'Hind', sans-serif;
