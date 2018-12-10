@@ -55,6 +55,28 @@ navy {
     width: 5em;
   }
 
+
+  .nav {
+    right: 1em;
+    top: 20em;
+    position: fixed;
+    text-align: right;
+  }
+
+  .nav a{
+    color: #0C3B62;
+    font-family: 'Nunito' , sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  .nav .tab {
+    color: #0C3B62;
+    height: 2em;
+    width: 0.5em;
+  }
+
   .heading {
     animation: 0.6s ease-in-out 0s 1 slideInFromBottom;
     font-family: 'Hind', sans-serif;
@@ -222,7 +244,16 @@ footer {
 footer h1 {
       font-family: 'Hind', sans-serif;
       color: #FFFFFF;
-      font-size: 3.5em;
+      font-size: 3em;
       font-weight: 700;
       line-height: 1.2em;
     }
+
+footer img{
+  opacity: 0.9;
+}
+
+footer img:hover{
+  transform: translatey(-10%);
+  opacity: 1;
+}

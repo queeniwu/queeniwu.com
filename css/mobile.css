@@ -79,8 +79,8 @@ navy {
     font-family: 'Nunito', sans-serif;
     color: #7B7B7B;
     font-weight: 400;
-    font-size: 0.2em;
-    line-height: 1.5em;
+    font-size: 0.25em;
+    line-height: 1.25em;
     text-align: left;
   }
 
@@ -228,6 +228,7 @@ footer {
 footer img{
   height: 3em;
   margin-left: 2em;
+  opacity: 0.9;
 }
 
 footer h1 {
