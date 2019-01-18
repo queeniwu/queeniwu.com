@@ -202,6 +202,7 @@ navy {
     margin: 10em;
     margin-top: 20em;
     margin-bottom: 12em;
+    margin-right: 20em;
   }
 
 
@@ -237,7 +238,7 @@ footer {
       padding: 10em;
       padding-top: 3em;
       padding-bottom: 3em;
-      text-align: right;
+      text-align: left;
       margin-top: 12em;
     }
 
