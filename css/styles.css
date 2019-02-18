@@ -87,7 +87,6 @@ navy {
     margin-bottom: 0em;
     margin-left: 2.5em;
     margin-top: -1em;
-
   }
 
 
@@ -257,4 +256,9 @@ footer img{
 footer img:hover{
   transform: translatey(-10%);
   opacity: 1;
+}
+
+footer a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
